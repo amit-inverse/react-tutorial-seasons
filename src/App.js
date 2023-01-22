@@ -25,7 +25,7 @@ class App extends React.Component {
     }
 
     render() {
-        return <div>{this.renderContent}</div>;
+        return <div>{this.renderContent()}</div>;
     }
 }
 
